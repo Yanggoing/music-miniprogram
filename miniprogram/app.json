@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/playlist/playlist",
+    "pages/blog/blog",
+    "pages/profile/profile",
+    "pages/musiclist/musiclist",
+    "pages/player/player"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#474747",
+    "list": [{
+      "pagePath": "pages/playlist/playlist",
+      "text": "音乐",
+      "iconPath": "images/music.png",
+      "selectedIconPath": "images/musicSelect.png"
+    }, {
+      "pagePath": "pages/blog/blog",
+      "text": "星球",
+      "iconPath": "images/star.png",
+      "selectedIconPath": "images/starSelect.png"
+    }, {
+      "pagePath": "pages/profile/profile",
+      "text": "你的",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/userSelect.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
