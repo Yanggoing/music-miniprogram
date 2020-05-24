@@ -6,6 +6,9 @@
     "pages/musiclist/musiclist",
     "pages/player/player"
   ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
@@ -14,7 +17,7 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color":"#474747",
+    "color": "#474747",
     "list": [{
       "pagePath": "pages/playlist/playlist",
       "text": "音乐",
