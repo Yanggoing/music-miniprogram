@@ -80,9 +80,39 @@
 
 .icon-shangyishou,
 .icon-xiayishou {
-  font-size: 100rpx;
+  font-size: 150rpx;
 }
 
-.icon-bofang {
-  font-size: 150rpx;
+.icon-bofang,
+.icon-zanting {
+  font-size: 200rpx;
+}
+
+.rotation {
+  animation: rotation 12s linear infinite;
+  -moz-animation: rotation 12s linear infinite;
+  -webkit-animation: rotation 12s linear infinite;
+  -o-animation: rotation 12s linear infinite;
+}
+
+.rotation-paused {
+  animation-play-state: paused;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.progress-bar {
+  position: absolute;
+  left: 50%;
+  bottom: 24%;
+  width: 90%;
+  transform: translateX(-50%);
 }
