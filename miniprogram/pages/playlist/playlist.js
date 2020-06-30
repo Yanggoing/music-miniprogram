@@ -1,18 +1,20 @@
 const MAX_LIMIT = 15
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
     swiperImgUrls: [{
-        url: 'http://p1.music.126.net/oeH9rlBAj3UNkhOmfog8Hw==/109951164169407335.jpg',
+        url: 'http://p1.music.126.net/FFlFT2hK14eW5Fuj52Mryg==/109951165100090270.jpg?imageView&quality=89',
       },
       {
-        url: 'http://p1.music.126.net/xhWAaHI-SIYP8ZMzL9NOqg==/109951164167032995.jpg',
+        url: 'http://p1.music.126.net/-Rj_kyPhumGK7Y50Agh31g==/109951165099393644.jpg?imageView&quality=89',
       },
       {
-        url: 'http://p1.music.126.net/Yo-FjrJTQ9clkDkuUCTtUg==/109951164169441928.jpg',
+        url: 'http://p1.music.126.net/-y5CryHf5Z1n0Ye2_gb7qQ==/109951165099388616.jpg?imageView&quality=89',
+      },
+      {
+        url: 'http://p1.music.126.net/yLSSMUn-GwG3LKlkIrMVMw==/109951165099170900.jpg?imageView&quality=89',
       }
     ],
     playList: []
